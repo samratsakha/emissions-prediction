@@ -1,0 +1,107 @@
+RandomForestClassifier
+
+[[4091  312   14]
+ [ 233 4151   94]
+ [  10   34 4704]]
+0.9489115297222018
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.93      4417
+           1       0.92      0.93      0.93      4478
+           2       0.98      0.99      0.98      4748
+
+    accuracy                           0.95     13643
+   macro avg       0.95      0.95      0.95     13643
+weighted avg       0.95      0.95      0.95     13643
+
+
+XGBClassifier
+
+[[4031  373   13]
+ [ 289 4077  112]
+ [   9   74 4665]]
+0.9362310342300081
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92      4417
+           1       0.90      0.91      0.91      4478
+           2       0.97      0.98      0.98      4748
+
+    accuracy                           0.94     13643
+   macro avg       0.94      0.94      0.94     13643
+weighted avg       0.94      0.94      0.94     13643
+
+
+KNNClassifier
+
+[[3739  630   48]
+ [ 301 4057  120]
+ [  13   31 4704]]
+0.9162207725573555
+
+              precision    recall  f1-score   support
+
+           0       0.92      0.85      0.88      4417
+           1       0.86      0.91      0.88      4478
+           2       0.97      0.99      0.98      4748
+
+    accuracy                           0.92     13643
+   macro avg       0.92      0.91      0.91     13643
+weighted avg       0.92      0.92      0.92     13643
+
+
+DecsisonTreeClassifier
+
+[[3898  484   35]
+ [ 405 3935  138]
+ [  15   91 4642]]
+0.9143883310122407
+print(classification_report(y_test,predictions))
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      4417
+           1       0.87      0.88      0.88      4478
+           2       0.96      0.98      0.97      4748
+
+    accuracy                           0.91     13643
+   macro avg       0.91      0.91      0.91     13643
+weighted avg       0.91      0.91      0.91     13643
+
+
+GradientBoostClassifier
+
+[[3692  688   37]
+ [ 509 3712  257]
+ [  68  196 4484]]
+0.8713626035329473
+
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      4417
+           1       0.81      0.83      0.82      4478
+           2       0.94      0.94      0.94      4748
+
+    accuracy                           0.87     13643
+   macro avg       0.87      0.87      0.87     13643
+weighted avg       0.87      0.87      0.87     13643
+
+AdaBoostClassifier
+
+[[3587  775   55]
+ [1087 3080  311]
+ [ 119  345 4284]]
+0.802682694422048
+print(classification_report(y_test,predictions))
+              precision    recall  f1-score   support
+
+           0       0.75      0.81      0.78      4417
+           1       0.73      0.69      0.71      4478
+           2       0.92      0.90      0.91      4748
+
+    accuracy                           0.80     13643
+   macro avg       0.80      0.80      0.80     13643
+weighted avg       0.80      0.80      0.80     13643
+
+
